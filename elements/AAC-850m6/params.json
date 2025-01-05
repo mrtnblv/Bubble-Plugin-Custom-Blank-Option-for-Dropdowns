@@ -1,0 +1,27 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "DD Blank",
+    "fields": {
+        "AAD": {
+            "caption": "Dropdown IDs",
+            "doc": "IDs of the Dropdowns you want to customize, separated by commas if there are multiple Dropdowns.",
+            "editor": "StaticText",
+            "name": "id",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Custom Blank Options",
+            "doc": "Enter the text for the custom blank option you want to display in the Dropdowns. If you want to use the same custom blank option for multiple Dropdowns, enter the text once. If you want to use different custom blank options for each Dropdown.",
+            "editor": "StaticText",
+            "in_style": false,
+            "name": "custom_blank_option",
+            "rank": 1
+        }
+    },
+    "icon": "ion-android-exit"
+}
