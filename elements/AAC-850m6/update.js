@@ -1,4 +1,5 @@
 function(instance, properties, context) {
+    
     function replaceblankoption(id, custom_blank_option) {
         let dd = document.getElementById(id);
         if (dd) {
